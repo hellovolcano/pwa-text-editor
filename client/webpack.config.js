@@ -17,6 +17,7 @@ module.exports = () => {
     plugins: [
       new HtmlWebpackPlugin({
         template: './index.html',
+        favicon: './favicon.ico',
         title: 'Webpack Plugin',
       }),
       new InjectManifest({
@@ -31,6 +32,7 @@ module.exports = () => {
         theme_color: '#e27ed8',
         start_url: './',
         publicPath: './',
+        fingerprints: false,
         icons: [
           {
             src: path.resolve('src/images/logo.png'),
