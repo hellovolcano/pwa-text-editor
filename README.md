@@ -2,7 +2,7 @@
 This project uses a combination of IndexedDB and Local Storage to create a simply text editor that will persist what you put in it--even after you've closed the browser! This application is also a Progessive Web App (PWA), leveraging a service worker built by Workbox to make it available offline, adn installable locally.
 
 ## Links
-- [Deployed Application](https://)
+- [Deployed Application](https://afternoon-beyond-91997.herokuapp.com/)
 
 ## Screenshot
 ![Screenshot of J.A.T.E](JATE.png)
